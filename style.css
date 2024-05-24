@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url('./background.png');
+    background-image: URL('./background.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -334,7 +334,7 @@ nav .fas{
 
 @media only screen and (max-width: 1440px){
 	#header{
-        background-image: url('./phone-background.png');
+        background-image: URL('./phone-background.png');
 		
     }
     .header-text{
